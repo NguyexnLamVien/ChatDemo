@@ -1,0 +1,9 @@
+extends ../layout
+
+block content
+  h1= title
+  #chat-container
+    #messages
+    form#chat-form
+      input#m(type="text", autocomplete="off")
+      button Send
